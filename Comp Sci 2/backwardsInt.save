@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class backwardsInt
+{
+	public static int tehCOUNTERofDETH = 0;
+	public static void main(String args[])
+	{
+		Scanner scan = new Scanner(System.in);
+		System.out.print("Please enter a number: ");
+		String iLoveStringCheez = scan.nextLine();
+		System.out.print("You entered: "+iLoveStringCheez+"\n");
+	}
